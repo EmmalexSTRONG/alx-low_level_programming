@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * print_square - print n squares according n number of times
+ * print_square - prints n squares accorfing n number of times
  * @size: The number of squares/number of times
  * Return: empty
  */
 
 void print_square(int size)
+
 {
 	int x, y;
 
 	if (size <= 0)
 	{
 	_putchar('\n');
+	}
 	else
 	{
 	for (x = 0; x < size; x++)
